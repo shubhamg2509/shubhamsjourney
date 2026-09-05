@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shubham Garg — People Operations &amp; HR Business Partnering Leader</title>
+<meta name="description" content="People Operations leader owning payroll, compliance, benefits, HR systems and business partnering across six entities and seventeen countries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500;9..144,600,50&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--white:#FFFFFF;--paper:#F6F6F6;--ink:#111111;--ink-2:#555555;--rule:#E2E2E2;--red:#C4141C;--red-deep:#8E0E14;--measure:66ch;--wrap:1120px}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{margin:0;background:var(--white);color:var(--ink);font-family:"Manrope",system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--red);text-decoration-thickness:1.5px;text-underline-offset:3px}
+  a:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:600;line-height:1.05;margin:0;letter-spacing:-0.02em}
+  h1{font-size:clamp(2.6rem,6vw,4.6rem);max-width:18ch}
+  h2{font-size:clamp(1.8rem,3vw,2.5rem);margin-bottom:1.5rem}
+  h3{font-size:1.4rem;margin-bottom:.45rem}
+  p{margin:0 0 1rem;max-width:var(--measure)}
+  strong{font-weight:700}
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(1.25rem,4vw,2.5rem)}
+
+  /* Nav */
+  header{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--rule);z-index:10}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:1.25rem;color:var(--ink);text-decoration:none}
+  nav{display:flex;gap:1.6rem}
+  nav a{color:var(--ink);text-decoration:none;font-weight:500;font-size:.95rem}
+  nav a:hover{color:var(--red)}
+  @media (max-width:760px){nav{display:none}}
+
+  /* Hero */
+  .hero{background:var(--red);color:var(--white);padding:clamp(4rem,10vw,8rem) 0 clamp(3.5rem,8vw,6rem)}
+  .hero p{font-size:clamp(1.1rem,1.6vw,1.35rem);color:#FFE3E3;margin-top:1.6rem;max-width:58ch}
+  .hero .actions{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+  .btn{display:inline-block;background:var(--ink);color:var(--white);text-decoration:none;padding:.85rem 1.35rem;border-radius:6px;font-weight:700}
+  .btn:hover{background:#000}
+  .btn.ghost{background:transparent;border:2px solid var(--white);color:var(--white)}
+  .btn.ghost:hover{background:rgba(255,255,255,.12)}
+
+  section{scroll-margin-top:72px;padding:clamp(3.5rem,7vw,5.5rem) 0;border-bottom:1px solid var(--rule)}
+  section.tint{background:var(--paper)}
+
+  /* Beliefs block — narrative like the reference */
+  .beliefs p{font-size:1.08rem}
+  .beliefs strong{display:block;font-family:"Fraunces",Georgia,serif;font-size:1.35rem;font-weight:600;margin-bottom:.3rem}
+  .beliefs .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem 3rem}
+  @media (max-width:760px){.beliefs .grid{grid-template-columns:1fr}}
+
+  /* Ledger */
+  .ledger{width:100%;border-collapse:collapse;font-size:.95rem;margin-top:.5rem;background:var(--white)}
+  .ledger th,.ledger td{text-align:left;padding:.85rem .7rem;border-bottom:1px solid var(--rule);vertical-align:top}
+  .ledger th{font-weight:700;border-bottom:2px solid var(--ink)}
+  .ledger td:first-child{font-family:"Fraunces",Georgia,serif;font-size:1.2rem;font-weight:600;white-space:nowrap}
+  .ledger td.yes{background:#FFF0F0;font-weight:600;border-left:3px solid var(--red)}
+  .ledger td:not(.yes):not(:first-child){color:var(--ink-2)}
+  .ledger caption{caption-side:bottom;text-align:left;color:var(--ink-2);font-size:.9rem;padding-top:.9rem}
+  @media (max-width:640px){.ledger{font-size:.85rem}.ledger th,.ledger td{padding:.55rem .35rem}}
+
+  /* Cases */
+  .case{display:grid;grid-template-columns:minmax(140px,20%) 1fr;gap:1.5rem;padding:2rem 0;border-top:1px solid var(--rule)}
+  .case:first-of-type{border-top:0}
+  @media (max-width:640px){.case{grid-template-columns:1fr;gap:.4rem}}
+  .case .where{font-weight:600;font-size:.95rem;line-height:1.45}
+  .case dl{margin:.7rem 0 0;display:grid;grid-template-columns:auto 1fr;gap:.4rem 1.2rem;max-width:var(--measure)}
+  .case dt{color:var(--ink-2);font-weight:600}
+  .case dd{margin:0}
+
+  /* Letter — portrait alongside, like the reference */
+  .letter .wrap{display:grid;grid-template-columns:1fr minmax(220px,300px);gap:3rem;align-items:start}
+  @media (max-width:760px){.letter .wrap{grid-template-columns:1fr}}
+  .letter img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:8px;border:4px solid var(--red)}
+  .letter .sig{margin-top:1.5rem}
+  .quiet{color:var(--ink-2);font-size:.92rem}
+  .eor{margin-top:2rem;padding:1.4rem 1.6rem;background:var(--white);border-left:4px solid var(--red)}
+  .eor h3{font-size:1.15rem}
+  .eor ul{margin:.6rem 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:.5rem .9rem}
+  .eor li{font-weight:600;font-size:.95rem}
+  .lead{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem 3rem}
+  @media (max-width:760px){.lead{grid-template-columns:1fr}}
+  .lead h3{font-size:1.25rem}
+  .lead p{font-size:1rem}
+  .wip{color:var(--ink-2);font-size:.85rem;font-weight:600;margin-left:.5rem}
+
+  /* Footer */
+  footer{background:var(--ink);color:#CFCFCF;padding:3rem 0 2rem;font-size:.92rem}
+  footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:2rem}
+  @media (max-width:760px){footer .wrap{grid-template-columns:1fr}}
+  footer a{color:var(--white);text-decoration:none;display:block;margin:.3rem 0}
+  footer a:hover{text-decoration:underline}
+  footer .brand{color:var(--white)}
+  footer .fine{grid-column:1/-1;border-top:1px solid #333;padding-top:1.2rem;margin-top:1rem;color:#999;font-size:.85rem}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">Shubham Garg</a>
+    <nav aria-label="Sections">
+      <a href="#beliefs">How I work</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#coverage">Where I operate</a>
+      <a href="#work">Selected work</a>
+      <a href="#journey">Journey</a>
+      <a href="https://www.linkedin.com/in/shubham-garg-hr/">LinkedIn</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <h1>Building the people function that lets a growth-stage company operate across borders.</h1>
+    <p>Nine years across fintech, logistics SaaS and ed-tech — from a 25,000-person payroll to owning People Operations for a six-entity, seventeen-country group. I have set up entities in India and the GCC, integrated two acquisitions, built the cost model a CEO planned against, designed sales incentives, and carried a business unit through a change at the top. I have led small teams to do it — up to five people — and sat with founders and CXOs on what the business needs next. Operations is the foundation; that seat is the job.</p>
+    <div class="actions">
+      <a class="btn" href="#work">See the work</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/shubham-garg-hr/">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<section id="beliefs" class="beliefs">
+  <div class="wrap">
+    <h2>How I work</h2>
+    <div class="grid">
+      <div><p><strong>Employees forget nothing.</strong> A salary that landed a day late, a relieving letter that took a week, a form nobody answered — each one is remembered long after the reason is. So the standard is not a good apology; it is no delay in the first place. Everything I build starts there.</p></div>
+      <div><p><strong>Compliance is designed, not remembered.</strong> If a statutory filing depends on someone's memory, it is already a risk. I document ownership per entity and build the calendar into the system.</p></div>
+      <div><p><strong>Finance and Legal are my closest partners.</strong> A clean, audit-ready incentive and payroll process is what makes the company's financial reporting true, and every policy, contract and entity registration is written with Legal, not around them.</p></div>
+      <div><p><strong>Systems before policies before programmes.</strong> Clean data in one HRIS, then policies that match reality, then the engagement and analytics work that people usually want to start with.</p></div>
+      <div><p><strong>Culture is built in the hard moments.</strong> An acquisition, a new leader, a fast-growth year: how people are treated then is the culture, whatever the values poster says.</p></div>
+      <div><p><strong>AI is a working tool, not a slide.</strong> I use it daily for reconciliation, drafting and QA, and I want to work in environments that treat it the same way.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="leadership" class="tint">
+  <div class="wrap">
+    <h2>Beyond operations</h2>
+    <p>The operational base is what earns the right to sit with leadership on the harder questions. This is where I spend that credit.</p>
+    <div class="lead">
+      <div>
+        <h3>Cost modelling and budget planning</h3>
+        <p>At LocoNav I built the complete people and operations cost model for the CEO and used it to show where spend could be optimised. At Kaaiser I now work with leadership on the budget and business growth plan, translating hiring, incentive and cost decisions into a single view. <span class="wip">In progress</span></p>
+      </div>
+      <div>
+        <h3>Incentive design tied to revenue</h3>
+        <p>Designed the incentive plans for Kaaiser's direct sales team, working with Finance so that what motivates a salesperson, what the business can afford and what gets paid on time are the same number.</p>
+      </div>
+      <div>
+        <h3>Leadership succession</h3>
+        <p>Carried a business unit through a change at the top: onboarded the incoming leader, built the team's trust in them over the first months, and kept employee sentiment moving up through the transition rather than down. A succession only counts as done when the team follows the new leader, not when the announcement goes out.</p>
+      </div>
+      <div>
+        <h3>Culture</h3>
+        <p>Ran the acquisition offsite that brought Kaaiser and Manifest together as one team. Earlier, anchored Great Place to Work certification at Cialfo — pulse surveys, leadership connects, culture-building — and launched a digital-first engagement programme for hybrid teams that lifted participation by around 70%.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="coverage">
+  <div class="wrap">
+    <h2>Where I operate</h2>
+    <p>Most HR profiles list countries. This lists what I have actually owned in each one — the parts that fail loudly when they go wrong.</p>
+    <table class="ledger">
+      <caption>Direct ownership means I ran the process, the vendor and the sign-off — not that a team somewhere did it.</caption>
+      <thead>
+        <tr><th>Jurisdiction</th><th>Payroll</th><th>Statutory compliance</th><th>Benefits</th><th>Entity setup</th><th>HR business partnering</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>India</td><td class="yes">Direct</td><td class="yes">PF / ECR, NPS, PoSH</td><td class="yes">Group medical, leave accrual</td><td class="yes">Multiple entities — registrations to first payroll</td><td class="yes">Direct (Kaaiser)</td></tr>
+        <tr><td>United States</td><td class="yes">Vendor-run, I own inputs and sign-off</td><td class="yes">Direct</td><td class="yes">401(k), income protection</td><td>—</td><td>—</td></tr>
+        <tr><td>United Kingdom</td><td class="yes">Vendor-run, I own inputs and sign-off</td><td class="yes">Direct</td><td class="yes">Group income protection</td><td>—</td><td>—</td></tr>
+        <tr><td>Singapore</td><td class="yes">Vendor-run, I own inputs and sign-off</td><td class="yes">Direct</td><td class="yes">Direct</td><td>—</td><td>—</td></tr>
+        <tr><td>UAE</td><td>—</td><td class="yes">Direct</td><td>—</td><td class="yes">Dubai entity, from zero</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <div class="eor">
+      <h3>Twelve more countries through employer-of-record partners</h3>
+      <p>Where the headcount does not justify an entity, employees are engaged through EOR vendors. The vendor runs payroll and statutory filings; I own vendor selection, the monthly inputs and reconciliation, invoice audits, and sign-off — the vendor does the processing, the accountability stays with me.</p>
+      <ul><li>Canada</li><li>China</li><li>Colombia</li><li>Hong Kong</li><li>Indonesia</li><li>Ireland</li><li>Malaysia</li><li>Pakistan</li><li>Philippines</li><li>Spain</li><li>Vietnam</li></ul>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="tint">
+  <div class="wrap">
+    <h2>Selected work</h2>
+
+    <article class="case">
+      <div class="where">Manifest Global<br>Group-wide, 2023 – present</div>
+      <div>
+        <h3>Six entities, one payroll and compliance rhythm</h3>
+        <dl>
+          <dt>Situation</dt><dd>A group formed from acquisitions — Cialfo (India, US), BridgeU (UK), Kaaiser, Explore Higher Ed, Manifest Singapore — each with its own payroll vendor, calendar and compliance habits.</dd>
+          <dt>What I did</dt><dd>Built a single monthly operating rhythm across vendors: shared cut-off calendar, variance checks before every run, one reconciliation view for Finance, and documented statutory ownership per entity. Ran a group-wide handbook compliance review across five jurisdictions, flagging legal exposure in leave, non-compete and data-protection language and getting the policies changed. Audit EOR and payroll vendor invoices as a standing control.</dd>
+          <dt>Result</dt><dd>Payroll and statutory filings run to a predictable cadence across six entities with a small team, and each newly acquired entity — most recently BridgeU in the UK in 2025 — is brought onto the same rhythm. Finance closes against one source of truth instead of six.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="where">Kaaiser<br>2024 – present</div>
+      <div>
+        <h3>A people function from a blank page</h3>
+        <dl>
+          <dt>Situation</dt><dd>A business unit with employees, managers and ambition, but no HRIS, no written policies, no attendance system and no KPI framework.</dd>
+          <dt>What I did</dt><dd>Sequenced the build deliberately: HRIS and clean data first, then attendance and leave, then a policy hub built in Notion and written for how the business actually runs, then KPI and KRA frameworks across eighteen-plus job profiles with leadership. Drafted employment agreements and a three-tier compliance policy framework scoped to Indian employment law and regulatory guidance. Acted as HR business partner to the leadership team throughout.</dd>
+          <dt>Result</dt><dd>Leadership makes people decisions from real-time dashboards rather than anecdote, every employee has a policy set that matches their contract, and the unit now has the base for budgeting and incentive work.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="where">Cialfo<br>Two acquisitions</div>
+      <div>
+        <h3>HR integration for two acquired companies</h3>
+        <dl>
+          <dt>Situation</dt><dd>Cialfo acquired two companies, bringing in employees on different contracts, policies, benefits and payroll cycles, each with their own anxieties about what changes.</dd>
+          <dt>What I did</dt><dd>Ran the HR side of due diligence, harmonised policies and benefits to a common baseline without levelling anyone down, and planned the employee communication so people heard the answer before they had to ask the question.</dd>
+          <dt>Result</dt><dd>Both transitions completed on schedule with minimal attrition, and the acquired teams landed on the same payroll and compliance rhythm as the rest of the group.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="where">LocoNav and Manifest Global<br>Automation across HR, Finance and IT</div>
+      <div>
+        <h3>Simplifying processes by building the tools myself</h3>
+        <dl>
+          <dt>Situation</dt><dd>At both companies, onboarding, exits, invoicing and reporting lived in inboxes and spreadsheets. Every handoff was a person.</dd>
+          <dt>What I did</dt><dd>At LocoNav, automated onboarding and offboarding, the invoice process, and the monthly investor reports. At Manifest, inventoried every recurring Talent Ops workflow and rebuilt the core ones as triggered flows with an owner and an audit trail — invoicing, hiring approval, onboarding and offboarding, background verification, employee levelling — plus two HRIS data integrations, a live sales dashboard for the sales director and CXO team, a full India salary calculator, and a drafting tool for Kaaiser's counsellors. I was the internal advocate for AI in the function and used it to draft, reconcile and QA.</dd>
+          <dt>Result</dt><dd>Materially less manual effort across HR, Finance and IT, with controls strengthened rather than bypassed, and a function that scales with headcount instead of with headcount in HR.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="where">Cialfo<br>2023 – present</div>
+      <div>
+        <h3>Owning the India entity: HiBob in two weeks, Great Place to Work, an IT team from zero</h3>
+        <dl>
+          <dt>Situation</dt><dd>A growing company running HR on spreadsheets, with a certification deadline approaching.</dd>
+          <dt>What I did</dt><dd>Owned comp and ben, HRMS and employee experience for the India entity, leading a team of four. Implemented HiBob end to end — data cleanup, configuration, manager training — in two weeks, led the Great Place to Work certification, built the IT team from zero, and started applying AI tooling to routine HR work before it was fashionable.</dd>
+          <dt>Result</dt><dd>Certified, and running on a system that later became the backbone for a six-entity group.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="where">LocoNav<br>2020 – 2023</div>
+      <div>
+        <h3>Dubai entity from zero; ISO 27001; Darwinbox from scratch; the CEO's cost model</h3>
+        <dl>
+          <dt>Situation</dt><dd>A logistics-tech company expanding into the GCC and adding business units, with no international entity, no HRMS, and an ISO 27001 audit where HR controls were in scope.</dd>
+          <dt>What I did</dt><dd>Set up the Dubai entity's people infrastructure — contracts, onboarding, statutory registrations — and owned the HR evidence and controls for the ISO 27001 certification. Implemented Darwinbox from scratch, built the people processes for new business units, designed the employee tax-saving benefits, ran the performance management cycle, and built the complete people and operations cost model the CEO used to plan and optimise spend, with one direct report.</dd>
+          <dt>Result</dt><dd>ISO 27001 achieved, the GCC entity hired and paid people compliantly from its first month, and the company ran on a single HRMS and a single cost view instead of spreadsheets.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="where">Paytm<br>2017 – 2019</div>
+      <div>
+        <h3>Payroll for 25,000 employees; a year of 20,000 hires</h3>
+        <dl>
+          <dt>Situation</dt><dd>A company of around 5,000 people that then hired 20,000 more in a single year — one of India's largest payrolls, with statutory exposure to match.</dd>
+          <dt>What I did</dt><dd>Owned the employee lifecycle from induction to exit as Assistant Manager, HR Operations: monthly payroll at scale, comp and ben, HRMS, employee experience, and HR audits for internal and external stakeholders — leading a team of five.</dd>
+          <dt>Result</dt><dd>Learned what "zero-error" actually costs at scale, and built the checking habits I still use on payrolls a hundredth the size.</dd>
+        </dl>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="journey" class="letter">
+  <div class="wrap">
+    <div>
+      <h2>Journey</h2>
+      <p>I started at Paytm in 2017 as an Assistant Manager in HR Operations, owning the full employee lifecycle from induction to exit — comp and ben, HRMS, employee experience, and HR audits for internal and external stakeholders. I was there through a year in which we hired around 20,000 people. That is where I learned what operations at scale actually feels like, and what breaks first.</p>
+      <p>In 2020 I moved to LocoNav because I wanted the global layer. There I set up the Dubai entity, took the company through ISO 27001, implemented Darwinbox from scratch, built the people processes for new business units, designed the tax-saving benefits, ran the performance cycle, automated onboarding, invoicing and investor reporting, and built the people and operations cost model the CEO planned against.</p>
+      <p>In April 2023 Cialfo came looking for someone to own their India entity end to end. Since then the work has included integrating the talent from two acquired companies, building the IT team from zero, applying AI to how HR runs, and — as Cialfo became Manifest Global — running Talent Operations across six entities and seventeen countries, and partnering with Kaaiser's leadership on budget, incentives, a leadership succession and the culture of a business unit going through change.</p>
+      <p class="quiet sig">MBA. Nine years in HR across fintech, software, ed-tech and logistics-tech, leading teams at every stop — five at Paytm, four at Cialfo. Based in Delhi NCR.</p>
+    </div>
+    <img src="photo.jpg" alt="Shubham Garg">
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <span class="brand">Shubham Garg</span>
+      <p style="color:#CFCFCF;margin-top:.6rem;max-width:40ch">People Operations leader. Delhi NCR, India. Open to global roles.</p>
+    </div>
+    <div>
+      <a href="#beliefs">How I work</a>
+      <a href="#leadership">Beyond operations</a>
+      <a href="#coverage">Where I operate</a>
+      <a href="#work">Selected work</a>
+      <a href="#journey">Journey</a>
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/in/shubham-garg-hr/">LinkedIn</a>
+    </div>
+    <div class="fine">© 2026 Shubham Garg</div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest('a[href^="#"]');if(!a)return;
+  var t=document.querySelector(a.getAttribute('href'));if(!t)return;
+  e.preventDefault();
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  t.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+});
+</script>
+</body>
+</html>
